@@ -1,25 +1,30 @@
 
 import './App.css';
+import { Route, Routes} from 'react-router-dom'
+import Home from './Pages/Home';
+import Booking from './Pages/Booking';
+import Prices from './Pages/Prices';
+import Navbar from './Components/Navbar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hi I'm Steph and I groom dogs.  I specialize in small and medium dogs, and building a strong relationship with the dogs I work with.
-        </p>
-
+      <div>
+        <Navbar />
         <div>
-          <p>Prices</p>
-          <p>Between 26lb & 45lb - $155</p>
-          <p>25lb or less - $135</p>
-          <p>De-Matt Fee $20</p>
-          <p>Special Needs Fee $20</p>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/booking' element={<Booking/>}/>
+            <Route path='/prices' element={<Prices/>}/>
+          </Routes>
         </div>
+
+      </div>
       
-        <iframe src="https://giphy.com/embed/bSIwCqjd9kTNJ6AAhg" width="480" height="270" frameBorder="0"></iframe>
-      </header>
-    </div>
+
+
+
+    
   );
 }
 
