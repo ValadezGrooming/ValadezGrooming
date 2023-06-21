@@ -6,10 +6,10 @@ export default function Navbar() {
   
   return (
     <nav className='nav'>
-        <Link to='/' className="title">Valadez Family Grooming</Link>
+        <Link to='/' className="title">Valadez Dog Grooming</Link>
         <ul>
           <NavLink toName="/booking">Booking</NavLink>
-          <NavLink toName="/pricing">Pricing</NavLink>
+          <NavLink toName="/prices">Pricing</NavLink>
         </ul>
     </nav>
   )

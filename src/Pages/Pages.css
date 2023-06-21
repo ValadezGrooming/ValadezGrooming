@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+}
+
+.page-div{
+    background-color: rgb(174, 156, 190);
+    width: 100%;
+    min-height: 90vh ;
+    padding: 10px;
+    margin: 0rem 1rem;
+}
+
+
+.sec-header{
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.sec-body{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+
+/* Pricing */
+.price-table-div{
+    display: flex;
+    justify-content: center;
+}
+
+.price-table{
+    border: .25rem double rgb(31, 33, 125);
+    width: 85%;
+    background-color: rgb(209, 221, 231);
+    border-collapse: collapse;
+}
+
+.price-table th, td{
+    border: 1px solid rgb(31, 33, 125);
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.small{
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 75, 111);
+}
+
+.medium{
+    color: white;
+    background-color: rgb(38, 4, 93);
+}

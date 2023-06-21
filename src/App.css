@@ -1,7 +1,18 @@
 *{
   box-sizing: border-box;
+  /* height: 100%; */
 }
 
 Body{
   margin: 0;
+  height: 100vh;
+}
+
+.page-contents{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 40, 61);
+  width: 100%;
+  
 }

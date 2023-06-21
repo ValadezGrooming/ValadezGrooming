@@ -11,7 +11,7 @@ function App() {
   return (
       <div>
         <Navbar />
-        <div>
+        <div className='page-contents'>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/booking' element={<Booking/>}/>

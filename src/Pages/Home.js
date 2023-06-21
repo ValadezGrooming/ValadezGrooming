@@ -1,24 +1,19 @@
 import React, { Component } from 'react'
+import './Pages.css'
 
 export default class Home extends Component {
   render() {
     return (
-        <div className="App">
-        <header className="App-header">
-          <p>
-            Hi I'm Steph and I groom dogs.  I specialize in small and medium dogs, and building a strong relationship with the dogs I work with.
+      <div className="page-div">
+        <section>
+          <p className='sec-header'>
+            About Us
           </p>
-  
-          <div>
-            <p>Prices</p>
-            <p>Between 26lb & 45lb - $155</p>
-            <p>25lb or less - $135</p>
-            <p>De-Matt Fee $20</p>
-            <p>Special Needs Fee $20</p>
-          </div>
-        
-          <iframe src="https://giphy.com/embed/bSIwCqjd9kTNJ6AAhg" width="480" height="270" frameBorder="0"></iframe>
-        </header>
+          <p className='sec-body'>
+            My name is Steph and I've been a grooming dogs since 2020.  I started my own dog grooming service so that I can focus on what matter, taking good care of the dogs I work with.  Making sure your dog is happy and comfortable is import, which is why grooming in home where they are most comfortable is best.
+          </p>
+        </section>
+
       </div>
     )
   }
